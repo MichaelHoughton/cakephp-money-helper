@@ -7,12 +7,15 @@ Using the $this->Money->small method, you can format any number to display the m
 
 It will strip any ".00" and automatically display the currency as a whole number rather than adding ".00"
 
-e.g. 10.00 becomes $10
+For Example:
+```
+10.00 becomes $10
 9.90 becomes $9.90
 100 becomes $100
 100.04 becomes $100.04
 1000 becomes $1,000
 1000.9 becomes $1,000.90
+```
 
 ## How to Install
 
