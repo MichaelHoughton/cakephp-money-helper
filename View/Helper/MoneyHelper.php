@@ -25,7 +25,7 @@ class MoneyHelper extends AppHelper {
 
         $split = explode('.', $number);
 
-        if (!empty($split[1])) {
+        if (!empty($split[1]) && $split[1] !== '00') {
             $options['places'] = 2;
         }
 
