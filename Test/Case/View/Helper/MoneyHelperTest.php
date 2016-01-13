@@ -19,7 +19,7 @@ class MoneyHelperTest extends CakeTestCase {
         $this->assertEquals('90', $result);
 
         $result = $this->Money->small(90.03, 'GBP');
-        $this->assertEquals('&#163;90.03', $result);
+        $this->assertEquals('£90.03', $result);
 
         $result = $this->Money->small(1000);
         $this->assertEquals('$1,000', $result);
